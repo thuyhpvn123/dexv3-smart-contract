@@ -1,0 +1,11 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["node_modules", "lib"]
+remappings = [
+    '@openzeppelin/contracts@3.4.0-solc-0.7=node_modules/@openzeppelin/contracts',
+    '@openzeppelin/contracts@3.4.0=node_modules/@openzeppelin/contracts',
+    '@openzeppelin/contracts-upgradeable@3.4.0=node_modules/@openzeppelin/contracts-upgradeable',
+]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
